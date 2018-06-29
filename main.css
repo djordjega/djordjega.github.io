@@ -78,6 +78,10 @@ article {
     border-top: 2px solid gray;
 }
 
+article div {
+    height: 20%;
+}
+
 article a {
     text-decoration: none;
 }
@@ -94,6 +98,7 @@ article iframe {
 
 article h4 {
     margin-top: 5px;
+    color:#D50000;
 }
 
 article:hover iframe {

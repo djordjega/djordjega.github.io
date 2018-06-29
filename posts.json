@@ -1,0 +1,184 @@
+{
+    "posts" : [
+        {
+            "title" : "BASIC WEB API",
+            "color" : "#D50000",
+            "tools" : "PYTHON",
+            "extras" : "Django REST framework",
+            "code_url" : "https://github.com/djordjega/python-restful-api",
+            "prev_url" : "#",
+            "text" : "Simple RESTful API. Built with <i>Django REST</i>."
+        },
+        {
+            "title" : "SOCIAL NETWORK CONCEPT",
+            "color" : "#D50000",
+            "tools" : "JAVA , JAVASCRIPT , MYSQL",
+            "extras" : 0,
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2018/01/social-network-exercise-part1.html'",
+            "text" : "Just a basic idea / concept that is on hold for now. Really not much done."
+        },
+        {
+            "title" : "SOKOBAN GAME",
+            "color" : "#D50000",
+            "tools" : "JAVASCRIPT",
+            "extras" : 0,
+            "code_url" : 0,
+            "prev_url" : "#",
+            "text" : "On hold for now. It's a classic Sokoban-like game. Some basic things (mapping,drawing,moving...) are done."
+        },
+        {
+            "title" : "EMPLOYEE MANAGEMENT 2",
+            "color" : "#D50000",
+            "tools" : "JAVA , MYSQL",
+            "extras" : "Hibernate",
+            "code_url" : "https://github.com/djordjega/employee-mng-system",
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/employess-management-system-2.html'",
+            "text" : "A bit enhanced version with nicer GUI and ORM done with <i>Hibernate</i>."
+        },
+        {
+            "title" : "EMPLOYEE MANAGEMENT 1",
+            "color" : "#D50000",
+            "tools" : "JAVA , MYSQL",
+            "extras" : "Swing and MySQL",
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/employee-management-system.html'",
+            "text" : "Simple employee management system."
+        },
+        {
+            "title" : "RESTFUL WEB SERVICE",
+            "color" : "#D50000",
+            "tools" : "JAVA , XML",
+            "extras" : "JAX-RS",
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/web-service-for-translating-between-two.html'",
+            "text" : "Basic concept of RESTful web service for translating between two languages. Built with <i>JAX-RS</i>."
+        },
+        {
+            "title" : "WEB WEATHER APP",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : "Spring MVC. Powered by OpenWeatherMap API",
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/10/web-weather-application.html'",
+            "text" : "Ugly, unfinished web weather app. Done with <i>SpringMVC</i>. Powered by <i>OpenWeatherMap API</i>."
+        },
+        {
+            "title" : "WEATHER APP",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : "JavaFX. Powered by OpenWeatherMap API",
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/10/simple-weather-application.html'",
+            "text" : "Simple weather app. Built with <i>JavaFX</i>. Powered by <i>OpenWeatherMap API</i>."
+        },
+        {
+            "title" : "WEB SHOP APP",
+            "color" : "#D50000",
+            "tools" : "JAVA , MYSQL",
+            "extras" : "Spring MVC",
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/web-shop-app.html'",
+            "text" : "I am really not proud of this one. It was my first <i>Spring MVC</i> attempt and it was just a basic exercise with bad UI."
+        },
+        {
+            "title" : "PUZZLE GAME",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : "Swing",
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/10/puzzle.html'",
+            "text" : "Simple, one-level puzzle game done with <i>Swing</i>. Needs a few more tweaks but it's functional, nice and I'm happy."
+        },
+        {
+            "title" : "INTERNET PACKAGE SALES",
+            "color" : "#D50000",
+            "tools" : "JAVA , MYSQL",
+            "extras" : "JavaFX",
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/registration-of-internet-package-sales.html'",
+            "text" : "It's a form for registering the sales of internet packages.Done with <i>JavaFX</i>."
+        },
+        {
+            "title" : "WEB BROWSER",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : "JavaFX",
+            "code_url" : "https://github.com/djordjega/forthz-web-browser",
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/09/forthz-web-browser.html'",
+            "text" : "A simple web browser. There is a lot more to play with. Built with <i>JavaFX</i>."
+        },
+        {
+            "title" : "BASIC ANGULAR APP",
+            "color" : "#D50000",
+            "tools" : "JAVASCRIPT , JSON",
+            "extras" : "AngularJS",
+            "code_url" : "https://github.com/djordjega/30hillsintertest",
+            "prev_url" : "'https://ifavailable.blogspot.rs/2018/05/basic-angularjs-app.html'",
+            "text" : "Just a real basic <i>AngularJS</i> stuff."
+        },
+        {
+            "title" : "SIMPLE MAIL CLIENT",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : "JavaFX",
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/09/bebica-mail-client.html'",
+            "text" : "It can read newest text mail and send one. Simple as that. Built with <i>JavaFX</i>."
+        },
+        {
+            "title" : "TEXT ENCODER / DECODER",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : "JavaFX",
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/10/encoder-decoder.html'",
+            "text" : "Just for fun. String encoding/decoding. Done with <i>JavaFX</i>."
+        },
+        {
+            "title" : "LITTLE CLIENT-SERVER APP",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : 0,
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/multithread-client-server-app.html'",
+            "text" : "Little c/s app with an ugly gui. But it's a nice <i>multithread / socket / awt</i> exercise."
+        },
+        {
+            "title" : "TIMER APP",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : "Swing",
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/java-swing-timer-app.html'",
+            "text" : "Simple but interesting <i>Swing</i> exercise ."
+        },
+        {
+            "title" : "SIMPLE FILE MANAGER APP",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : 0,
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/simple-file-manager-app.html'",
+            "text" : "Very simple console based file manager application. Just an exercise for file system handling."
+        },
+        {
+            "title" : "BASIC XML PARSER",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : 0,
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.com/2017/08/xml-parsing-with-xpath.html'",
+            "text" : "Basic <i>XPath</i> XML parser."
+        },
+        {
+            "title" : "OLD WEB WORKS",
+            "color" : "#006BD5",
+            "tools" : "HTML",
+            "extras" : 0,
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.com/2018/06/old-web-works.html'",
+            "text" : "A collection of some old works from 2006 and 2007."
+        }
+    ]
+}

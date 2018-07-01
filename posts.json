@@ -53,16 +53,7 @@
             "code_url" : 0,
             "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/web-service-for-translating-between-two.html'",
             "text" : "Basic concept of RESTful web service for translating between two languages. Built with <i>JAX-RS</i>."
-        },
-        {
-            "title" : "WEB WEATHER APP",
-            "color" : "#D50000",
-            "tools" : "JAVA",
-            "extras" : "Spring MVC. Powered by OpenWeatherMap API",
-            "code_url" : 0,
-            "prev_url" : "'https://ifavailable.blogspot.rs/2017/10/web-weather-application.html'",
-            "text" : "Ugly, unfinished web weather app. Done with <i>SpringMVC</i>. Powered by <i>OpenWeatherMap API</i>."
-        },
+        },        
         {
             "title" : "WEATHER APP",
             "color" : "#D50000",
@@ -71,16 +62,7 @@
             "code_url" : 0,
             "prev_url" : "'https://ifavailable.blogspot.rs/2017/10/simple-weather-application.html'",
             "text" : "Simple weather app. Built with <i>JavaFX</i>. Powered by <i>OpenWeatherMap API</i>."
-        },
-        {
-            "title" : "WEB SHOP APP",
-            "color" : "#D50000",
-            "tools" : "JAVA , MYSQL",
-            "extras" : "Spring MVC",
-            "code_url" : 0,
-            "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/web-shop-app.html'",
-            "text" : "I am really not proud of this one. It was my first <i>Spring MVC</i> attempt and it was just a basic exercise with bad UI."
-        },
+        },        
         {
             "title" : "PUZZLE GAME",
             "color" : "#D50000",
@@ -170,6 +152,24 @@
             "code_url" : 0,
             "prev_url" : "'https://ifavailable.blogspot.com/2017/08/xml-parsing-with-xpath.html'",
             "text" : "Basic <i>XPath</i> XML parser."
+        },
+        {
+            "title" : "WEB WEATHER APP",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : "Spring MVC. Powered by OpenWeatherMap API",
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/10/web-weather-application.html'",
+            "text" : "Ugly, unfinished web weather app. Done with <i>SpringMVC</i>. Powered by <i>OpenWeatherMap API</i>."
+        },
+        {
+            "title" : "WEB SHOP APP",
+            "color" : "#D50000",
+            "tools" : "JAVA , MYSQL",
+            "extras" : "Spring MVC",
+            "code_url" : 0,
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/web-shop-app.html'",
+            "text" : "I am really not proud of this one. It was my first <i>Spring MVC</i> attempt and it was just a basic exercise with bad UI."
         },
         {
             "title" : "OLD WEB WORKS",

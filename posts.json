@@ -53,6 +53,15 @@
             "code_url" : 0,
             "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/web-service-for-translating-between-two.html'",
             "text" : "Basic concept of RESTful web service for translating between two languages. Built with <i>JAX-RS</i>."
+        },
+        {
+            "title" : "WEB BROWSER",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : "JavaFX",
+            "code_url" : "https://github.com/djordjega/forthz-web-browser",
+            "prev_url" : "'https://ifavailable.blogspot.rs/2017/09/forthz-web-browser.html'",
+            "text" : "A simple web browser. There is a lot more to play with. Built with <i>JavaFX</i>."
         },        
         {
             "title" : "WEATHER APP",
@@ -80,16 +89,7 @@
             "code_url" : 0,
             "prev_url" : "'https://ifavailable.blogspot.rs/2017/08/registration-of-internet-package-sales.html'",
             "text" : "It's a form for registering the sales of internet packages.Done with <i>JavaFX</i>."
-        },
-        {
-            "title" : "WEB BROWSER",
-            "color" : "#D50000",
-            "tools" : "JAVA",
-            "extras" : "JavaFX",
-            "code_url" : "https://github.com/djordjega/forthz-web-browser",
-            "prev_url" : "'https://ifavailable.blogspot.rs/2017/09/forthz-web-browser.html'",
-            "text" : "A simple web browser. There is a lot more to play with. Built with <i>JavaFX</i>."
-        },
+        },        
         {
             "title" : "BASIC ANGULAR APP",
             "color" : "#D50000",

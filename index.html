@@ -14,7 +14,7 @@
 <body onload="loadContent()">
     <div id="mainContainer">
         <header>
-            <h4 style="display: inline; color:#D50000;">Djordje Gavrilovic</h4>
+            <h4 style="display: inline; color:#062F4F;"><strong>DJORDJE GAVRILOVIC</strong></h4>
             <p style="display: inline;"> | Welcome to my projects page.</p>
             <br/>
             <br/>
@@ -26,7 +26,7 @@
         <h2>Projects</h2>
         <p>Page is still under construction. All projects will be available on GitHub soon.</p>
         <br/>
-        <h1 style="color:#D50000;" id="close" onclick="endPreview()">X</h1>
+        <h1 style="color:#D50000;" id="close" onclick="endPreview()"><b>X</b></h1>
         <iframe id="preview" src=""></iframe>
         <main id="artContainer"></main>
         <footer>
@@ -66,7 +66,7 @@
 
                 if (contX.posts[i].code_url !== 0) {
                     code.innerHTML = '<a href="' + contX.posts[i].code_url +
-                        '" target="_blank"><i class="material-icons" style="font-size: 18px">code</i></a>';
+                        '" target="_blank"><i class="material-icons" style="font-size: 18px">code</i></a>&nbsp;';
                     art.appendChild(code);
                 }
                 if (contX.posts[i].prev_url == "#") {

@@ -27,68 +27,66 @@
         <p>Page is still under construction. All projects will be available on GitHub soon.</p>
         <br/>
         <h1 style="color:#D50000;" id="close" onclick="endPreview()">X</h1>
-        <iframe id="preview" src="" ></iframe>
-        <main id="artContainer">
-                    
-        </main>        
+        <iframe id="preview" src=""></iframe>
+        <main id="artContainer"></main>
         <footer>
             <h6>Djordje Gavrilovic 2018</h6>
         </footer>
     </div>
 
     <script>
-
         var contX;
 
         // parse JSON to contentX
-        function loadContent(){
+        function loadContent() {
             var xmlhttp = new XMLHttpRequest();
-            xmlhttp.onreadystatechange = function() {
-                if(this.readyState == 4 && this.status == 200) {
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
                     contX = JSON.parse(this.responseText);
                     generateArticle();
                 }
             };
-            xmlhttp.open("GET","posts.json",true);
-            xmlhttp.send();            
+            xmlhttp.open("GET", "posts.json", true);
+            xmlhttp.send();
         }
         // generate <article> from json data
         function generateArticle() {
             // generate an article on each loop
-            for(i=0; i<contX.posts.length; i++) {
+            for (i = 0; i < contX.posts.length; i++) {
                 var art = document.createElement('article');
                 var title = document.createElement('div');
                 var tools = document.createElement('h6');
                 var txt = document.createElement('p');
                 var code = document.createElement('a');
                 var prev = document.createElement('i');
-                var prev_url;
 
-                title.innerHTML = '<h2>'+contX.posts[i].title+'</h2>';
+                title.innerHTML = '<h2>' + contX.posts[i].title + '</h2>';
                 tools.innerHTML = contX.posts[i].tools;
                 txt.innerHTML = contX.posts[i].text;
-                
-                if(contX.posts[i].code_url !== 0) {
-                    code.innerHTML = '<a href="'+contX.posts[i].code_url+'" target="_blank"><i class="material-icons" style="font-size: 18px">code</i></a>';
+
+                if (contX.posts[i].code_url !== 0) {
+                    code.innerHTML = '<a href="' + contX.posts[i].code_url +
+                        '" target="_blank"><i class="material-icons" style="font-size: 18px">code</i></a>';
                     art.appendChild(code);
                 }
-                if(contX.posts[i].prev_url == "#") {
-                    prev.innerHTML = "<i class='material-icons' style='font-size: 18px; visibility: hidden;'>visibility</i>";
+                if (contX.posts[i].prev_url == "#") {
+                    prev.innerHTML =
+                        "<i class='material-icons' style='font-size: 18px; visibility: hidden;'>visibility</i>";
                 } else {
-                    prev.innerHTML = '<i class="material-icons" style="font-size: 18px" onclick="loadPreview('+contX.posts[i].prev_url+')">visibility</i>';
+                    prev.innerHTML = '<i class="material-icons" style="font-size: 18px" onclick="loadPreview(' + contX.posts[
+                        i].prev_url + ')">visibility</i>';
                 }
 
-                art.appendChild(prev);                
+                art.appendChild(prev);
                 art.appendChild(title);
                 art.appendChild(tools);
                 art.appendChild(txt);
                 document.getElementById("artContainer").appendChild(art);
             }
-            
+
         }
         // loading project preview
         function loadPreview(urlX) {
-            console.log('click' + urlX);
             prevFrame = document.getElementById("preview");
             prevFrame.setAttribute("src", urlX);
             prevFrame.style.display = "inline";

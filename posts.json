@@ -1,6 +1,15 @@
 {
     "posts" : [
         {
+            "title" : "DATA SCRAPER",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : 0,
+            "code_url" : "https://github.com/djordjega/java-data-web-scraper",
+            "prev_url" : "#",
+            "text" : "Very basic web scraper from a bookstore website. Done with <i>Jsoup</i>."
+        },
+        {
             "title" : "BASIC WEB API",
             "color" : "#D50000",
             "tools" : "PYTHON",

@@ -7,7 +7,7 @@
             "extras" : 0,
             "code_url" : "https://github.com/djordjega/python-data-web-scraper",
             "prev_url" : "#",
-            "text" : "Very basic data / screen scraper from a bookstore website. Done with <i>BeautifulSoup</i>."
+            "text" : "Basic data / screen scraper from a bookstore website. Done with <i>BeautifulSoup</i>."
         },
         {
             "title" : "DATA SCRAPER",
@@ -16,7 +16,7 @@
             "extras" : 0,
             "code_url" : "https://github.com/djordjega/java-data-web-scraper",
             "prev_url" : "#",
-            "text" : "Very basic data / screen scraper from a bookstore website. Done with <i>Jsoup</i>."
+            "text" : "Basic data / screen scraper from a bookstore website. Done with <i>Jsoup</i>."
         },
         {
             "title" : "BASIC WEB API",

@@ -1,13 +1,22 @@
 {
     "posts" : [
         {
+            "title" : "DATA SCRAPER 2",
+            "color" : "#D50000",
+            "tools" : "PYTHON",
+            "extras" : 0,
+            "code_url" : "https://github.com/djordjega/python-data-web-scraper",
+            "prev_url" : "#",
+            "text" : "Very basic data / screen scraper from a bookstore website. Done with <i>BeautifulSoup</i>."
+        },
+        {
             "title" : "DATA SCRAPER",
             "color" : "#D50000",
             "tools" : "JAVA",
             "extras" : 0,
             "code_url" : "https://github.com/djordjega/java-data-web-scraper",
             "prev_url" : "#",
-            "text" : "Very basic web scraper from a bookstore website. Done with <i>Jsoup</i>."
+            "text" : "Very basic data / screen scraper from a bookstore website. Done with <i>Jsoup</i>."
         },
         {
             "title" : "BASIC WEB API",

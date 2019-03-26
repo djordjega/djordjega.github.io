@@ -1,6 +1,15 @@
 {
     "posts" : [
         {
+            "title" : "WEB APPS PROJECT",
+            "color" : "#D50000",
+            "tools" : "JAVA",
+            "extras" : 0,
+            "code_url" : 0,
+            "prev_url" : "wapj.html",
+            "text" : "Exploring different tools for developing Java based web apps/services/apis. <i>Servlet, JAX-RS, SpringMVC, Struts2, Spark...</i>."
+        },
+        {
             "title" : "DATA SCRAPER 2",
             "color" : "#D50000",
             "tools" : "PYTHON",
